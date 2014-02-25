@@ -28,9 +28,10 @@
 */
 body
 {
-    background-color:#dddddd;
+    background-color:#000000;
     font-family: "Helvetica", "Arial", "MS Sans Serif", sans-serif;
     font-size: 13px;
+    color:#00FF00;
     margin:0;
     padding:0;
 }
@@ -54,7 +55,7 @@ input.button
 
 a
 {
-    color:#000000;
+    color:#00FF00;
     text-decoration:none;
 }
 
@@ -67,6 +68,7 @@ div#db_fs_selector
 div#db_fs_selector a
 {
     padding:2px 4px;
+	color: #00ff00;
 }
 
 div#db_fs_selector a.selected
@@ -91,12 +93,12 @@ table.contTable
 
 tr.itemRowA
 {
-    background-color:#cccccc;
+    background-color:#111111;
 }
 
 tr.itemRowB
 {
-    background-color:#aaaaaa;
+    background-color:#333333;
 }
 
 td.itemEntry
